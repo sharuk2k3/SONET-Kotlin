@@ -31,6 +31,7 @@ class SonetProject1 : AppCompatActivity(),View.OnClickListener {
         setContentView(R.layout.activity_sonet_project1)
         var utility = Utility()
         listOfQuestions = utility.getQuestion()
+        utility.getQuestionFromGithub()
 
         // listOfQuestions=utility.getQuestionFromGithub()
 
